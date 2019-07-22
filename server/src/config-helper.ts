@@ -51,9 +51,10 @@ const DEFAULTS: CommonVoiceConfig = {
     useDualstack: true,
   },
   AUTH0: {
-    DOMAIN: '',
-    CLIENT_ID: '',
-    CLIENT_SECRET: '',
+    DOMAIN: 'dev-qhbmzejk.eu.auth0.com',
+    CLIENT_ID: 'CeFVvr1RcmwQc5kzpGHe0B6KOUGxooQO',
+    CLIENT_SECRET:
+      '4QTzpCmKgWC2EykiUQP63ydvjU7PODkJ1rA3d8mOmaESIAfg6OpNagP_i1U51Jsv',
   },
   IMPORT_SENTENCES: true,
   REDIS_URL: null,
