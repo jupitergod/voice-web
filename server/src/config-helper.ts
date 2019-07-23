@@ -36,7 +36,7 @@ const DEFAULTS: CommonVoiceConfig = {
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root', // For running schema migrations.
   DB_ROOT_PASS: 'Maria!@345',
-  MYSQLUSER: 'root', // For normal DB interactions.
+  MYSQLUSER: 'voicecommons', // For normal DB interactions.
   MYSQLPASS: 'Maria!@345',
   MYSQLDBNAME: 'voiceweb',
   MYSQLHOST: 'localhost',
