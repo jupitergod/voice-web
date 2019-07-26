@@ -35,9 +35,9 @@ const DEFAULTS: CommonVoiceConfig = {
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root', // For running schema migrations.
-  DB_ROOT_PASS: 'Maria!@345',
+  DB_ROOT_PASS: '',
   MYSQLUSER: 'voicecommons', // For normal DB interactions.
-  MYSQLPASS: 'Maria!@345',
+  MYSQLPASS: '',
   MYSQLDBNAME: 'voiceweb',
   MYSQLHOST: 'localhost',
   MYSQLPORT: 3306,
@@ -51,10 +51,9 @@ const DEFAULTS: CommonVoiceConfig = {
     useDualstack: true,
   },
   AUTH0: {
-    DOMAIN: 'dev-qhbmzejk.eu.auth0.com',
-    CLIENT_ID: 'CeFVvr1RcmwQc5kzpGHe0B6KOUGxooQO',
-    CLIENT_SECRET:
-      '4QTzpCmKgWC2EykiUQP63ydvjU7PODkJ1rA3d8mOmaESIAfg6OpNagP_i1U51Jsv',
+    DOMAIN: '',
+    CLIENT_ID: '',
+    CLIENT_SECRET: '',
   },
   IMPORT_SENTENCES: true,
   REDIS_URL: null,
