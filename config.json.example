@@ -1,0 +1,9 @@
+{
+  "DB_ROOT_PASS": "",
+  "MYSQLPASS": "",
+  "AUTH0": {
+    "DOMAIN": "",
+    "CLIENT_ID": "",
+    "CLIENT_SECRET":  ""
+  }
+}
